@@ -67,6 +67,19 @@
   border: 1px solid var(--grayish-blue);
 }
 
+.user__form--error {
+  position: relative;
+  text-align: end;
+  color: var(--red);
+  font-size: 12px;
+}
+
+.user__form--errorIcon {
+  position: absolute;
+  right: 1rem;
+  top: -3.5rem;
+}
+
 .user__form--button {
   border: none;
   font-family: inherit;
@@ -76,6 +89,15 @@
   color: white;
   font-weight: 600;
   letter-spacing: 2px;
+}
+
+.user__form--button:hover {
+  cursor: pointer;
+}
+
+.user__form--button:active {
+  cursor: pointer;
+  opacity: 50%;
 }
 
 .user__form--terms {
@@ -92,4 +114,9 @@
 
 .user__form--terms a:hover {
   cursor: pointer;
+}
+
+.user__form--terms a:active {
+  cursor: pointer;
+  opacity: 50%;
 }
